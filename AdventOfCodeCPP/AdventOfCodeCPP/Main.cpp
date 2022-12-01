@@ -1,8 +1,7 @@
-// Your First C++ Program
-
-#include <iostream>
+#include "Day1.h"
 
 int main() {
-    std::cout << "Hello World!";
+    RunDay();
+
     return 0;
 }
