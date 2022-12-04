@@ -9,4 +9,8 @@ void RunDay(int i) {
 	else if (i == 2) {
 		RunDay2();
 	}
+
+	else if (i == 3) {
+		RunDay3();
+	}
 }
