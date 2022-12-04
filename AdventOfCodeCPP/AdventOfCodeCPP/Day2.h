@@ -1,5 +1,5 @@
-#ifndef DAY_H    // To make sure you don't declare the function more than once by including the header multiple times.
-#define DAY_H
+#ifndef DAY2_H    // To make sure you don't declare the function more than once by including the header multiple times.
+#define DAY2_H
 
 #include <iostream>
 #include <fstream>
@@ -10,6 +10,6 @@
 #include <numeric>
 #include <algorithm>
 
-void RunDay1();
+void RunDay2();
 
 #endif

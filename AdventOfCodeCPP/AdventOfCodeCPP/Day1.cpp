@@ -1,17 +1,16 @@
 #include "Day1.h"
 #include "Util.h"
 
-void RunDay() {
+void RunDay1() {
     std::string fileName = "Day1.txt";
-    std::list<std::string> lines;
+    std::vector<std::string> lines;
     readFile(fileName, lines);
 
-    std::list<int> listOfLists;
-    std::list<int> currentList;
-    std::list<std::string>::const_iterator i;
+    std::vector<int> listOfLists;
+    std::vector<int> currentList;
 
-    for (i = lines.begin(); i != lines.end(); i++) {
-        std::string line = i->c_str();
+    for (std::string i : lines) {
+        std::string line = i;
         if (line != "") {
             int lineNum = stoi(line);
             currentList.push_back(lineNum);
@@ -22,17 +21,15 @@ void RunDay() {
         }
     }
 
-    listOfLists.sort(std::greater<int>());
+    std::sort(listOfLists.begin(), listOfLists.end(), std::greater<int>());
     auto lol_front = listOfLists.begin();
 
-    std::cout << "Part 1: " << *lol_front << '\n';
+    std::cout << "Part 1: " << listOfLists[0] << '\n';
 
     int sumOfAll = 0;
-    sumOfAll += *lol_front;
-    advance(lol_front, 1);
-    sumOfAll += *lol_front;
-    advance(lol_front, 1);
-    sumOfAll += *lol_front;
+    sumOfAll += listOfLists[0];
+    sumOfAll += listOfLists[1];
+    sumOfAll += listOfLists[2];
 
     std::cout << "Part 2: " << sumOfAll << '\n';
 }

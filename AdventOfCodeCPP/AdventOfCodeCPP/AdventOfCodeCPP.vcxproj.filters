@@ -27,9 +27,18 @@
     <ClCompile Include="Util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Days.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Day1.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="Day2.txt">
       <Filter>InputFiles</Filter>
     </Text>
   </ItemGroup>
@@ -38,6 +47,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Days.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day2.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
