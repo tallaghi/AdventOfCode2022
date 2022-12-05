@@ -5,6 +5,7 @@
 #include "Day2.h"
 #include "Day3.h"
 #include "Day4.h"
+#include "Day5.h"
 
 void RunDay(int i);
 

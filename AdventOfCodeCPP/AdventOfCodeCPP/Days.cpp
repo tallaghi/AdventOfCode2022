@@ -1,4 +1,5 @@
 #include "Days.h"
+#include "AllDays.h"
 #include "Util.h"
 
 void RunDay(int i) {
@@ -16,5 +17,9 @@ void RunDay(int i) {
 
 	else if (i == 4) {
 		RunDay4();
+	}
+
+	else if (i == 5) {
+		RunDay5();
 	}
 }

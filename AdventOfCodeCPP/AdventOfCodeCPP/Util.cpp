@@ -68,3 +68,17 @@ int getIndexString(std::vector<std::string> v, std::string K)
         return -1;
     }
 }
+
+std::vector<std::string> splitString(std::string str, std::string delimiter = " ")
+{
+    int start = 0;
+    int end = str.find(delimiter);
+    std::vector<std::string> vec;
+    while (end != -1) {
+        vec.push_back(str.substr(start, end - start));
+        start = end + delimiter.size();
+        end = str.find(delimiter, start);
+    }
+    vec.push_back(str.substr(start, end - start));
+    return vec;
+}

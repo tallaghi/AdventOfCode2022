@@ -1,4 +1,4 @@
-#include "Day1.h"
+#include "AllDays.h"
 #include "Util.h"
 
 void RunDay1() {

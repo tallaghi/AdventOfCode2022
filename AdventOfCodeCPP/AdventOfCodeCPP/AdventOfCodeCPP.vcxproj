@@ -143,6 +143,7 @@
     <ClCompile Include="Day2.cpp" />
     <ClCompile Include="Day3.cpp" />
     <ClCompile Include="Day4.cpp" />
+    <ClCompile Include="Day5.cpp" />
     <ClCompile Include="Days.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Util.cpp" />
@@ -152,12 +153,15 @@
     <Text Include="Day1.txt" />
     <Text Include="Day2.txt" />
     <Text Include="Day4.txt" />
+    <Text Include="Day5.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AllDays.h" />
     <ClInclude Include="Day1.h" />
     <ClInclude Include="Day2.h" />
     <ClInclude Include="Day3.h" />
     <ClInclude Include="Day4.h" />
+    <ClInclude Include="Day5.h" />
     <ClInclude Include="Days.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>
