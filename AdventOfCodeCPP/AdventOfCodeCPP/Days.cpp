@@ -26,4 +26,8 @@ void RunDay(int i) {
 	else if (i == 6) {
 		RunDay6();
 	}
+
+	else if (i == 7) {
+		RunDay7();
+	}
 }
