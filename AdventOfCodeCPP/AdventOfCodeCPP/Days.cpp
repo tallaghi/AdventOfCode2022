@@ -30,4 +30,8 @@ void RunDay(int i) {
 	else if (i == 7) {
 		RunDay7();
 	}
+
+	else if (i == 8) {
+		RunDay8();
+	}
 }

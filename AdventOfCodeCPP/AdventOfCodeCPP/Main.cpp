@@ -2,7 +2,7 @@
 
 int main() {
 
-    RunDay(7);
+    RunDay(8);
 
     return 0;
 }
